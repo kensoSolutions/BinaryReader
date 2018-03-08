@@ -42,8 +42,6 @@ BinaryFileSource::~BinaryFileSource()
 void  BinaryFileSource::readJSON(File& file)
 {
 	var s[4];
-	//std::cout << "ALVAROEJECUTADO\n";
-	//const File& file = File("Full.txt");
 	String text = file.loadFileAsString();
 	//std::cout << "____________________SALIDA2: " << (String)text << std::endl;
 	var result;
